@@ -44,4 +44,4 @@ jobs:
         run: USE_RANDOM_USER_ID=${USE_RANDOM_USER} VERSION=${BRANCH} BUILD_DATE=${BUILD_DATE} make test
         env:
           USE_RANDOM_USER: ${{ matrix.use-random-user }}
-./config.cmd --url https://github.com/massmutual/auto_web_SupervisoryCentral_2024 --token AUNDGAXQRWZ352G43CJHRH3G2AXHI
+../config.cmd --url https://github.com/massmutual/auto_web_OnitLawBAUSmartLatest --token A2BXYLEANJQQKTKLI4DCSATG6PPW4
